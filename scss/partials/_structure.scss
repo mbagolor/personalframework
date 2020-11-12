@@ -1,0 +1,74 @@
+/* SITE STRUCTURE */
+
+.site-header {
+    position: absolute;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    a {
+        // color: white;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+}
+
+/* SITE FOOTER */
+.site-footer {
+    background: $color-accent; 
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+/* SITE-NAV */
+.site-nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    a {
+        display: inline-block;
+        padding: 1em;
+        line-height: 1;
+    }
+}
+
+section {
+    padding: 4em 0;
+}
+
+
+/* HERO SECTION */
+.hero {
+    background-color:white;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 6em 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+    h1 {
+        color: rgb(12, 12, 12);
+        margin-bottom: .25em;
+    }
+    p {
+        margin: 1em auto;
+    }
+}

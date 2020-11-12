@@ -1,0 +1,29 @@
+/* GLOBAL RESET*/
+* {box-sizing: border-box;}
+
+/* VARIABLES*/
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,.4);
+$color-accent: rgb(248, 184, 195);
+$color-link: rgb(59, 192, 130);
+$color-link-darker: rgb(24, 133, 82);
+$color-accent-light: rgba(255, 202, 202);  
+
+$color-lightgrey: light grey; 
+
+$font-family-sans: 'neue-haas-unica', Helvetica, Arial, sans-serif;;
+$font-family-serif: 'adobe-jenson-pro', Georgia, 'Times New Roman', Times, serif;
+
+//BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/button"; 
+@import "partials/media";  
+@import "partials/layout"; 
+@import "partials/grid"; 
+@import "partials/structure";  
