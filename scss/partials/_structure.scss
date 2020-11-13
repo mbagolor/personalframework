@@ -10,7 +10,7 @@
     
     
     a {
-        // color: white;
+        color:black;
         text-decoration: none;
     }
 
@@ -23,7 +23,7 @@
 
 /* SITE FOOTER */
 .site-footer {
-    background: $color-accent; 
+    background: rgb(26, 26, 26); 
     display: flex;
     padding: 1em;
     justify-content: center;
@@ -51,6 +51,9 @@
 
 section {
     padding: 4em 0;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
 }
 
 
