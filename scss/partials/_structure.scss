@@ -10,44 +10,43 @@
     
     
     a {
-        color:black;
+        color:gray;
         text-decoration: none;
     }
 
     h1 {
+        display: inline-block;
         font-size: 1.5em;
         margin: 0;
+    }
+
+    .site-id{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        display: inline-block;
+        max-width: 100px;
+        margin-right: .5em;
     }
 
 }
 
 /* SITE FOOTER */
 .site-footer {
-    background: rgb(26, 26, 26); 
+    background: lightblue; 
     display: flex;
     padding: 1em;
     justify-content: center;
     
     a {
-        color: white;
+        color: gray;
         text-decoration: none;
     }
 }
 
-/* SITE-NAV */
-.site-nav {
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex;
-    }
-    a {
-        display: inline-block;
-        padding: 1em;
-        line-height: 1;
-    }
-}
+
 
 section {
     padding: 4em 0;
@@ -59,8 +58,8 @@ section {
 
 /* HERO SECTION */
 .hero {
-    background-color:white;
-    color: rgb(12, 12, 12);
+    background-color: lightblue;
+    color:gray;
     text-align: center;
     padding: 6em 0;
     min-height: 100vh;
@@ -68,7 +67,7 @@ section {
     place-items: center;
 
     h1 {
-        color: rgb(12, 12, 12);
+        color: gray;
         margin-bottom: .25em;
     }
     p {
